@@ -21,5 +21,6 @@ Once your listings have been imported, we'll continue to import new products fro
 
 explain why, explain how to solve
 
-Continued learning: [Getting Started: Creating Listings](/import-create/create-amz-listing)
+Continued learning: [Getting Started: Creating Listings](./import-create/create-amz-listing)
+
 Confused? [Contact support!](https://support.listingmirror.com/hc/en-us/articles/360057441252)
