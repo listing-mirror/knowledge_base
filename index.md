@@ -2,8 +2,9 @@
 
 ## Importing & Creating Listings
 
-[Getting Started: Importing Listings](/import-create/import-listing)
-[Getting Started: Creating Listings](/import-create/create-listing)
+[Getting Started: Importing Listings](./import-create/import-listing)
+
+[Getting Started: Creating Listings](./import-create/create-listing)
 
 ## Mirror Listings
 
