@@ -1,16 +1,16 @@
 # Welcome to the Training Centre
 
-# Importing & Creating Listings
+## Importing & Creating Listings
 
-- [Getting Started | Importing Listings](/import-create/import-listing)
-- [Getting Started | Creating Listings](/import-create/create-listing)
+- [Getting Started: Importing Listings](/import-create/import-listing)
+- [Getting Started: Creating Listings](/import-create/create-listing)
 
-# Mirror Listings
+## Mirror Listings
 
-# Manage Inventory
+## Manage Inventory
 
-# Fulfill Orders
+## Fulfill Orders
 
-# Updating Price
+## Updating Price
 
-# Need Support?
+## Need Support?
