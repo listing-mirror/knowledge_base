@@ -1,5 +1,5 @@
 # Getting Started: Creating Amazon Listings
-### Learn how to create listings in Listing Mirror, and set expectations for the accepted workflow
+### Learn how to create Amazon listings in Listing Mirror, and set expectations for the accepted workflow
 
 Now that your product are in Listing Mirror, let's go over future products. Listing Mirror has multiple ways that you can add your products to our platform. 
 
@@ -27,3 +27,10 @@ Flatfiles are something that Amazon provides, and exist independant of Listing M
 4. Drag & drop your file into the upload window, and click upload.
 
 *A GIF IS NEEDED HERE*
+
+### Add Products Directly To Amazon
+If those two options don't work for you, we do have a solution, as we know Inventory File Templates aren't available to everyone. We run an import every two hours of anything on your Amazon seller account that meets the import critera. As a reminder, the critera for import is: The listing must be active and have quantity on your Amazon seller account. 
+
+Continued learning: [Getting Started: Creating Listings](create-listing)
+
+Confused? [Contact support!](https://support.listingmirror.com/hc/en-us/articles/360057441252)
