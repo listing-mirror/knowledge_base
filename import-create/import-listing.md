@@ -21,7 +21,7 @@ As long as your SKUs are matching across all platforms, they're be linked togeth
 
 ## Importing Walmart & Newegg Listings
 
-explain why, explain how to solve
+The API for these marketplaces provides us with an incomplete set of data. Meaning, when we import your listings, we may not grab all of the data. This creates a problem when Listing Mirror controls your listing data, as we'd send back to the market that a field is blank when it might not be. We do everything we can do prevent data loss for your business. [Learn more](https://support.listingmirror.com/hc/en-us/articles/360054125091)
 
 Continued learning: [Getting Started: Creating Listings](create-amz-listing)
 
