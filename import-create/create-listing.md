@@ -18,6 +18,6 @@ You can also create variations, and update variation information from this page,
 # Create Listings Using Existing Data
 Ready to learn how to mirror products from your listings we imported?
 
-Continued learning: [Getting Started: Category Mapping](./mirror/category-mapping)
+Continued learning: [Getting Started: Category Mapping](/mirror/category-mapping)
 
 Confused? [Contact support!](https://support.listingmirror.com/hc/en-us/articles/360057441252)
