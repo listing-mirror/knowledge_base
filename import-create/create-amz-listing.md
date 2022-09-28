@@ -31,6 +31,8 @@ Flatfiles are something that Amazon provides, and exist independant of Listing M
 ### Add Products Directly To Amazon
 If those two options don't work for you, we do have a solution, as we know Inventory File Templates aren't available to everyone. We run an import every two hours of anything on your Amazon seller account that meets the import critera. As a reminder, the critera for import is: The listing must be active and have quantity on your Amazon seller account. 
 
+***
+
 Continued learning: [Getting Started: Creating Listings](create-listing)
 
 Confused? [Contact support!](https://support.listingmirror.com/hc/en-us/articles/360057441252)
