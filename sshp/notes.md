@@ -25,6 +25,9 @@
     
     - [Explain how to use category mapping.](https://support.listingmirror.com/hc/en-us/articles/360012837672)
         - Go into detail about it, more than just pointing them in that direction. Provide in-detail examples.
+
+***
+
 - **Mirror Listings From Amazon to eBay**
     
     - Common Pitfalls | [Business Policies](https://support.listingmirror.com/hc/en-us/articles/360009319552)
