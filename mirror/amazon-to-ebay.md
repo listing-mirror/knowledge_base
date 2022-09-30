@@ -54,5 +54,6 @@ The fields should have a red asterisks next to them, incidicating that they're r
 *A GIF GOES HERE*
 
 ### Bulk Templates
+If you have a large amount of listings that need to be fixed, a bulk edit template will be the best way to fix these issues.
 
 ## Listing Creation Process
