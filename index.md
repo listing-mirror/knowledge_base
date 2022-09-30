@@ -14,29 +14,29 @@ Welcome to Listing Mirror, we're happy to have you here! The training centre wil
 
 [Getting Started: Category Mapping](./mirror/category-mapping)
 
-Mirror Listings From Amazon to eBay
+[Getting Started: Mirror From Amazon to eBay](./mirror/amazon-to-ebay)
 
-Mirror Listings From Amazon to Walmart
+Getting Started: Mirror From Amazon to Walmart
 
-Mirror Listings From Amazon to Shopify
+Getting Started: Mirror From Amazon to Shopify
 
-Mirror Listings From Amazon to Etsy
+Getting Started: Mirror From Amazon to Etsy
 
 ## Manage Inventory
 
-Inventory Across Listing Mirror
+Getting Started: Merchant Fulfilled
 
-Getting Started: Amazon FBA, and third-party logistics (3PL)
+Getting Started: Amazon FBA, and 3PL
 
 Getting Started: Kitting & Bundling
 
 ## Fulfill Orders
 
-Getting Started: Multi-channel Fulfillment
+Getting Started: Fulfilling MCF Orders
 
-3PL: ShipStation
+Getting Started: ShipStation Fulfillment
 
-3PL: Deliverr
+Getting Started: Deliverr Fulfillment
 
 ## Updating Price
 
