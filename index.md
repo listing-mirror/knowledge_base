@@ -2,6 +2,8 @@
 
 Welcome to Listing Mirror, we're happy to have you here! The training centre will help you achieve your goals of multi-channel listing management.
 
+NOTE: This page is intended for Listing Mirror staff only. This is a DEMO, and will not be used as the live version, even after completion. If you're looking for the client-facing Training Centre, please view the page on our website. [Learn more](https://support.listingmirror.com/hc/en-us/categories/360004804391)
+
 ## Importing & Creating Listings
 
 [Getting Started: Importing Listings](./import-create/import-listing)
