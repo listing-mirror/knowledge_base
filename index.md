@@ -16,11 +16,11 @@ Welcome to Listing Mirror, we're happy to have you here! The training centre wil
 
 [Getting Started: Mirror From Amazon to eBay](./mirror/amazon-to-ebay)
 
-Getting Started: Mirror From Amazon to Walmart
+[Getting Started: Mirror From Amazon to Walmart](./mirror/amazon-to-walmart)
 
-Getting Started: Mirror From Amazon to Shopify
+[Getting Started: Mirror From Amazon to Shopify](./mirror/amazon-to-shopify)
 
-Getting Started: Mirror From Amazon to Etsy
+[Getting Started: Mirror From Amazon to Etsy](./mirror/amazon-to-etsy)
 
 ## Manage Inventory
 
