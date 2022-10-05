@@ -86,7 +86,7 @@ The fields should have a red asterisks next to them, incidicating that they're r
 *A GIF GOES HERE*
 
 ### Bulk Templates
-If you have a large amount of listings that need to be fixed, a bulk edit template will be the best way to fix these issues. Listing Mirror has a slew of different bulk edit templates to meet your needs, but in this case, we'll be using a **Missing Category Specific** template.
+If you have a large amount of listings that need to be fixed, a bulk edit template will be the best way to fix these issues. In this instance, we'll be using a **Missing Category Specific** template.
 
 1. On the menubar, click **Listings**, followed by **Bulk Edit Templates**
 2. From the dropdown, select **Missing Category Specific**, select the eBay channel, and click **Download**.
