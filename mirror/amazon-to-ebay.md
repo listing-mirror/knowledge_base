@@ -33,6 +33,10 @@ Once your listings are created, you'll see one of these errors if your business 
 - At least one valid return service must be specified.
 - At least one valid payment service must be specified.
 
+## Listing Creation Process
+
+
+
 ## Missing Category Fields
 Once you've mirrored your listings from Amazon to eBay, certain fields will need to be filled out for the listings to go live. eBay requires category specifications to be filled out, such as **Type**. This is one of the most common eBay errors that people will run into. You'll see errors such as:
 
@@ -54,6 +58,13 @@ The fields should have a red asterisks next to them, incidicating that they're r
 *A GIF GOES HERE*
 
 ### Bulk Templates
-If you have a large amount of listings that need to be fixed, a bulk edit template will be the best way to fix these issues.
+If you have a large amount of listings that need to be fixed, a bulk edit template will be the best way to fix these issues. Listing Mirror has a slew of different bulk edit templates to meet your needs, but in this case, we'll be using a **Missing Category Specific** template.
 
-## Listing Creation Process
+1. On the menubar, click **Listings**, followed by **Bulk Edit Templates**
+2. From the dropdown, select **Missing Category Specific**, select the eBay channel, and click **Download**.
+3. Input your data into the empty yellow cells. 
+4. Head back to the **Bulk Edit Templates** page, and upload the sheet.
+
+*A GIF GOES HERE*
+
+From there, the data will be input into your eBay listings. This should bring them up to eBay's standards, and make them live. 
