@@ -12,7 +12,7 @@ Listing Mirror provides you a way get around these limits, but limiting how much
 2. Select the **Inventory** tab, at the top of the page.
 3. Scroll down to **Max Quantity**, and set this to a reasonable number. We suggest anywhere from one to three.
 
-*A GIF GOES HERE*
+*A GIF GOES HERE!*
 
 This allows you to bypass limits, such as how much inventory you're allowed to post to eBay. While you may have more than the max quantity set, we'll always tell eBay you're selling that much. If you're selling one-hundred hats, but set your max quantity to 5, we'll always tell eBay you have five. 
 
