@@ -26,8 +26,6 @@
     - [Explain how to use category mapping.](https://support.listingmirror.com/hc/en-us/articles/360012837672)
         - Go into detail about it, more than just pointing them in that direction. Provide in-detail examples.
 
-***
-
 - **Mirror Listings From Amazon to eBay**
     
     - Common Pitfalls | [Business Policies](https://support.listingmirror.com/hc/en-us/articles/360009319552)
@@ -40,6 +38,9 @@
         - Explain that eBay listings need to have certain category fields filled out that we can't do automatically. The best way to achieve this is to do it in bulk.
         - Errors will include: Missing type, missing product. (Find examples of these on client listings for word-for-word phrasing.)
         - Explain how to use listing rules to fill out these fields before creating listings. 
+
+*** 
+
 - **Mirror Listings From Amazon to Walmart**
     
     - Common Pitfall | [Missing UPC/GTIN/EAN](https://support.listingmirror.com/hc/en-us/articles/360009604791)
