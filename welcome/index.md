@@ -7,7 +7,7 @@ Listing Mirror can be a lot to take in, and we have dedicated staff here to help
 
 First and foremost, we'll import everything we can find when you connect a marketplace. We attempt to import everything we can, but there can be complications based on your listing data setup. 
 
-[Getting Started: Importing Listings](training-centre/import-create/import-listing)
+[Getting Started: Importing Listings](/training-centre/import-create/import-listing)
 
 ## Creating Existing Listings On Another Market
 

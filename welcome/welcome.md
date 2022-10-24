@@ -5,7 +5,7 @@ Hello, and welcome to Listing Mirror! In this introduction, you're going to disc
 
  Listing Mirror does more than copy and sync your listings to other marketplaces. We have three pillars to our software, all working together. 
 
- ## Pillar One: Products & Listings
+## Pillar One: Listing Management
 
 Getting started with Listing Mirror, we'll import all of your listings when you add a marketplace for the first time. We use this data to build a **Product Catalogue**, that will house all your listing data, such as: titles, descriptions, images, pricing, quantity, and more. If it can be found, we will import it. Building this **Product Catalogue** allows you to then create your products on new markets, using the existing data. [Learn more](https://www.listingmirror.com/features/listing-creation-and-management/)
 
