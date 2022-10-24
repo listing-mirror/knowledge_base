@@ -4,6 +4,18 @@ Welcome to Listing Mirror, we're happy to have you here! The training centre wil
 
 NOTE: This page is intended for Listing Mirror staff only. This is a DEMO, and will not be used as the live version, even after completion. If you're looking for the client-facing Training Centre, please view the page on our website. [Learn more](https://support.listingmirror.com/hc/en-us/categories/360004804391)
 
+## Welcome! 
+
+[What Is Listing Mirror?](./welcome/welcome)
+
+[Confused? Start Here!](./welcome/index)
+
+Contacting Support
+
+One-on-one Training
+
+Emergency Hours
+
 ## Importing & Creating Listings
 
 [Getting Started: Importing Listings](./import-create/import-listing)
@@ -12,7 +24,7 @@ NOTE: This page is intended for Listing Mirror staff only. This is a DEMO, and w
 
 [Getting Started: Creating Listings](./import-create/create-listing)
 
-## Mirror Listings
+## Mirroring Listings
 
 [Getting Started: Category Mapping](./mirror/category-mapping)
 
@@ -30,8 +42,6 @@ Getting Started: Merchant Fulfilled
 
 Getting Started: Amazon FBA, and 3PL
 
-Getting Started: Kitting & Bundling
-
 ## Fulfill Orders
 
 Getting Started: Fulfilling MCF Orders
@@ -45,11 +55,3 @@ Getting Started: Deliverr Fulfillment
 Getting Started: Sync Price From Amazon
 
 Getting Started: Sync Price From Listing Mirror
-
-## Need Support?
-
-Contacting Support
-
-One-on-one Training
-
-Emergency Hours

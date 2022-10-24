@@ -1,7 +1,7 @@
 # Getting Started: Importing Listings
-### Learn how Listing Mirror brings in your products, and our expectations for the accepted workflow
+### Learn how Listing Mirror brings in your products after you connect your marketplace
 
-During the course of the training, we'll explain how to use our software, what to expect, and how you can overcome foreseen obstacles. If, at any point, you find yourself confused or stuck on something, please reach out to our support team. [Contact support](https://support.listingmirror.com/hc/en-us/articles/360057441252)
+While this process typically works without issue, there can be fringe cases you may run into complications. 
 
 ## Bringing In Your Products
 When you connect a marketplace for the first time, we'll bring in the listings you currently have on that market, should they meet our import criteria. We'll go over the most common markets here, but you can view our article on the topic for a full list. [Learn more](https://support.listingmirror.com/hc/en-us/articles/360021623032)
