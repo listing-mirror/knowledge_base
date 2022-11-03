@@ -97,6 +97,8 @@ If you have a large amount of listings that need to be fixed, a bulk edit templa
 
 From there, the data will be input into your eBay listings. This should bring them up to eBay's standards, and make them live. 
 
+***
+
 Continued learning: [Getting Started: Mirror From Amazon to Walmart](amazon-to-walmart)
 
 Confused? [Contact support!](https://support.listingmirror.com/hc/en-us/articles/360057441252)
