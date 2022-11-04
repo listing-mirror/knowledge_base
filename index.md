@@ -38,9 +38,11 @@ Emergency Hours
 
 ## Manage Inventory
 
-Getting Started: Merchant Fulfilled
+[Getting Started: Inventory](./inventory/general)
 
-Getting Started: Amazon FBA, and 3PL
+[Getting Started: Merchant Fulfilled](./inventory/mf)
+
+[Getting Started: Amazon FBA, and 3PL](./inventory/amazon-3pl)
 
 ## Fulfill Orders
 
