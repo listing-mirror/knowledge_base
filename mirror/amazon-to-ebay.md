@@ -63,8 +63,6 @@ Prefer spreadsheets?
 3. On the sheet, you'll see cells marked **E**, which means they exist. In the empty cells, put a **C** for listings you want to **Create**.
 4. Head back to the **Bulk Edit Templates** page, and upload the sheet.
 
-You can view the status of the spreadsheet in the [Bulk Upload History page](https://reflector.listingmirror.com/report/bulk-history/).
-
 ## Common Pitfall: Missing Category Fields
 Once you've mirrored your listings from Amazon to eBay, certain fields will need to be filled out for the listings to go live. eBay requires category specifications to be filled out, such as **Type**. This is one of the most common eBay errors that people will run into. You'll see errors such as:
 
@@ -96,6 +94,8 @@ If you have a large amount of listings that need to be fixed, a bulk edit templa
 *A GIF GOES HERE*
 
 From there, the data will be input into your eBay listings. This should bring them up to eBay's standards, and make them live. 
+
+You can view the status of the spreadsheet in the [Bulk Upload History page](https://reflector.listingmirror.com/report/bulk-history/).
 
 ***
 

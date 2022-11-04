@@ -50,6 +50,6 @@ You can view the status of the spreadsheet in the [Bulk Upload History page](htt
 
 ***
 
-Continued learning: [Getting Started: Merchant Fulfilled](/training-centre/inventory/mf)
+Continued learning: [Getting Started: Merchant Fulfilled](/training-centre/inventory/general)
 
 Confused? [Contact support!](https://support.listingmirror.com/hc/en-us/articles/360057441252)
