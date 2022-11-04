@@ -1,7 +1,7 @@
 # Getting Started: Creating Listings
 ### Learn how to create listings in Listing Mirror, and set expectations for the accepted workflow
 
-Unlike Amazon, we don't run automatic import for any other marketplace. As stated before, you'll be expected to create brand-new products on Listing Mirror. This article will show you how to create products without any existing information. 
+Unlike Amazon, we don't run automatic import for any other marketplace, aside from WooCommerce. As stated before, you'll be expected to create brand-new products on Listing Mirror. This article will show you how to create products without existing information. 
 
 ## Create Listings Without Data
 
@@ -16,7 +16,7 @@ You can also create variations, and update variation information from this page,
 *A GIF GOES HERE*
 
 # Create Listings Using Existing Data
-Ready to learn how to mirror products from your listings we imported?
+Ready to learn how to create products from your listing data we imported?
 
 ***
 

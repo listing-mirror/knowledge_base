@@ -42,6 +42,6 @@ If you have two locations you need to add, repeat this process a following time.
 
 ***
 
-Continued learning: [Getting Started: Mirror From Amazon to Walmart](amazon-to-etsy)
+Continued learning: [Getting Started: Mirror From Amazon to Etsy](amazon-to-etsy)
 
 Confused? [Contact support!](https://support.listingmirror.com/hc/en-us/articles/360057441252)

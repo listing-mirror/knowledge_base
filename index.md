@@ -16,7 +16,7 @@ One-on-one Training
 
 Emergency Hours
 
-## Importing & Creating Listings
+## Import & Create Listings
 
 [Getting Started: Importing Listings](./import-create/import-listing)
 

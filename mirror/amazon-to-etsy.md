@@ -18,6 +18,6 @@ Etsy will then send this shipping profile to Listing Mirror, where you can assig
 
 ***
 
-Continued learning: [Getting Started: Category Mapping](/training-centre/inventory/mf)
+Continued learning: [Getting Started: Merchant Fulfilled](/training-centre/inventory/mf)
 
 Confused? [Contact support!](https://support.listingmirror.com/hc/en-us/articles/360057441252)
