@@ -11,9 +11,9 @@ Unlike Amazon, we don't run automatic import for any other marketplace, aside fr
 4. Fill out the required details, such as description, category, price. You can also fill out any other fields you may need.
 5. Under **Market Listings**, click the plus button for any markets you need to add this product to.
 
-You can also create variations, and update variation information from this page, should you need to do so. Any information you put into the fields in this page will be in sync across all markets. 
-
 *A GIF GOES HERE*
+
+You can also create variations, and update variation information from this page, should you need to do so. Any information you put into the fields in this page will be in sync across all markets. 
 
 # Create Listings Using Existing Data
 Ready to learn how to create products from your listing data we imported?

@@ -10,6 +10,7 @@ When you connect a marketplace for the first time, we'll bring in the listings y
 The listings must be **active**, have **quantity**, and have a **unique SKU**.
 ### eBay
 The listings must be **active**, and have a **unique SKU**. 
+Need to update your SKUs on eBay in bulk? [Learn more]()
 ### Walmart
 The listings must have a **unique SKU**, and **unique Product ID** (UPC, GTIN, EAN, ISBN).
 ### Shopify
@@ -25,6 +26,6 @@ The API for these marketplaces provides us with an incomplete set of data. Meani
 
 ***
 
-Continued learning: [Getting Started: Creating Listings](create-amz-listing)
+Continued learning: [Getting Started: Creating Amazon Listings](create-amz-listing)
 
 Confused? [Contact support!](https://support.listingmirror.com/hc/en-us/articles/360057441252)
