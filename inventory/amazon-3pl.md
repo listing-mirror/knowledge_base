@@ -24,6 +24,6 @@ We'll also send the sum of all inventory sources quantity to the market. If you 
 
 ***
 
-Continued learning: 
+Continued learning: [Getting Started: Merchant Fulfilled](/training-centre/orders/mf)
 
 Confused? [Contact support!](https://support.listingmirror.com/hc/en-us/articles/360057441252)

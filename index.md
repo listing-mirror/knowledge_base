@@ -42,18 +42,19 @@ Emergency Hours
 
 [Getting Started: Merchant Fulfilled](./inventory/mf)
 
-[Getting Started: Amazon FBA, and 3PL](./inventory/amazon-3pl)
+[Getting Started: FBA, WFS, and 3PL](./inventory/amazon-3pl)
 
 ## Fulfill Orders
 
-Getting Started: Fulfilling MCF Orders
+[Getting Started: Orders](./orders/general)
 
-Getting Started: ShipStation Fulfillment
 
-Getting Started: Deliverr Fulfillment
+[Getting Started: Merchant Fulfilled](./orders/mf)
+
+[Getting Started: Multi-Channel Fulfillment](./orders/mcf)
 
 ## Updating Price
 
-Getting Started: Sync Price From Amazon
+[Getting Started: Sync Price From Amazon]
 
-Getting Started: Sync Price From Listing Mirror
+[Getting Started: Sync Price From Listing Mirror]

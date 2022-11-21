@@ -1,5 +1,5 @@
-# Getting Started: Merchant Fulfilled
-### Learn how to manage your personal invenory on Listing Mirror
+# Getting Started: Merchant Fulfilled inventory
+### Learn how to manage your personal inventory on Listing Mirror
 
 Once you start syncing, Listing Mirror will manage your inventory across all of your markets. You'll be expected to manage your inventory levels on Listing Mirror, should you need to increase or decrease quantity manually. 
 
@@ -34,7 +34,7 @@ If you have a larger business, or need to make many changes, you'll want to use 
 
 You can view the status of the spreadsheet in the [Bulk Upload History page](https://reflector.listingmirror.com/report/bulk-history/).
 
-## Orders & Returns
+## Orders & Cancelling
 
 As stated in [What Is Listing Mirror?](/training-centre/welcome/welcome), inventory syncing is one of our three pillars. We keep your inventory uniform across all platforms. 
 
@@ -43,12 +43,14 @@ As stated in [What Is Listing Mirror?](/training-centre/welcome/welcome), invent
 When a client places an order, the market will then tell Listing Mirror about the order. As soon as the market lets us know it's been paid for and accepted, we'll reduce your quantity. This allows us to tell the other connected markets that you now have less quantity. 
 For example, if you're selling ten hats, and someone buys one on Amazon, we'll then tell your other markets that you now have nine hats left. This takes the work of manually adjusting your inventory on each marketplace individually. 
 
-### Returns
+### Cancelling
 
 When an order gets cancelled, what happens to the quantity will depend on where the order is cancelled. 
 If you cancel an order through Listing Mirror, the quantity **will not** be returned. You'll need to adjust this manually.
 If the order is cancelled on the market, either by you, or the customer, the quantity **will** be returned.
 Should the order be cancelled 14 days after it's placed, the quantity **will not** be returned, regardless of where it's cancelled. 
+
+Our section on orders will go into more detail on how to cancel orders, and process returns. [Learn more](/training-centre/orders/general)
 
 ***
 
