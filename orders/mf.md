@@ -1,7 +1,6 @@
 # Getting Started: Merchant Fulfilled Orders
 ### Learn how we handle your merchant fulfilled orders
 
-
 Regardless of how you fill your orders, Listing Mirror will import any orders made on a marketplace. This allows us to not only adjust your quantity in real time, but allows you to see order information in one place. The orders page has many options for you to manage your orders. 
 
 ## Order Details

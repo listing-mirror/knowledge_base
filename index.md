@@ -55,6 +55,4 @@ Emergency Hours
 
 ## Updating Price
 
-[Getting Started: Sync Price From Amazon]
-
-[Getting Started: Sync Price From Listing Mirror]
+[Getting Started: Price Syncing Options](./price/price-sync)
