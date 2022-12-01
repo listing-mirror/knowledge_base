@@ -8,13 +8,14 @@ NOTE: This page is intended for Listing Mirror staff only. This is a DEMO, and w
 
 [What Is Listing Mirror?](./welcome/welcome)
 
-[Confused? Start Here!](./welcome/index)
+[Confused? Start Here!](./welcome/directory)
 
-Contacting Support
+[Contacting Support](./welcome/support)
 
-One-on-one Training
+[Emergency Hours](./welcome/emergency)
 
-Emergency Hours
+[One-on-one Training](./welcome/training)
+
 
 ## Import & Create Listings
 

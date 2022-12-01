@@ -1,5 +1,5 @@
-# Table of Contents
-### Learn where you should start, based on what you're most confused about
+# Directory
+### Learn where you should start, based on what you need assistance with
 
 Listing Mirror can be a lot to take in, and we have dedicated staff here to help you get up and running. If you're confused on where to start, here would be the best place. Below, you'll find the topics in the order in which you'll encouter them in Listing Mirror. 
 
