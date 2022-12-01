@@ -4,18 +4,19 @@ Welcome to Listing Mirror, we're happy to have you here! The training centre wil
 
 NOTE: This page is intended for Listing Mirror staff only. This is a DEMO, and will not be used as the live version, even after completion. If you're looking for the client-facing Training Centre, please view the page on our website. [Learn more](https://support.listingmirror.com/hc/en-us/categories/360004804391)
 
+Also, I didn't feel like writing some CSS for this, so it's just going to be static pages. Really takes you back, huh?
+
 ## Welcome! 
 
 [What Is Listing Mirror?](./welcome/welcome)
 
-[Confused? Start Here!](./welcome/directory)
+[Directory](./welcome/directory)
 
-[Contacting Support](./welcome/support)
+[Request Help: Contact Support](./welcome/support)
 
-[Emergency Hours](./welcome/emergency)
+[Request Help: Emergency Hours](./welcome/emergency)
 
-[One-on-one Training](./welcome/training)
-
+[Request Help: Traiing Call](./welcome/training)
 
 ## Import & Create Listings
 
