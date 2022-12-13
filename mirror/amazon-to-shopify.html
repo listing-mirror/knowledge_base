@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Getting Started | Amazon To Walmart</title>
+        <title>Getting Started | Amazon to Shopify</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
@@ -16,44 +16,51 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-<h1>Getting Started | Amazon To Walmart</h1>
+<h1>Getting Started | Amazon to Shopify</h1>
         <!-- Add everything below this line to Zendesk. Above is only for this website.-->
-<h3>Learn how to move the data from your Amazon listings to new Walmart listings, avoiding common pitfalls</h3>
-    <p>One of our pillars is listing creation. Using your <strong>Product Catalog</strong> data, we build your Walmart listings with ease.</p>
-    <p>Before getting started, you'll need to ensure your barcode data, and Walmart integration settings are properly set up. Failing to do so can result in your listings not going live.</p>
+<h3>Learn how to move the data from your Amazon listings to new Shopify listings, avoiding common pitfalls</h3>
+    <p>One of our pillars is listing creation. Using your <strong>Product Catalog</strong> data, we build your Shopify listings with ease.</p>
+    <p>Before getting started, you'll need to ensure your Shopify locations are properly set up. Failing to do so can result in your listings not going live.</p>
 <br>
-<h2>Common Pitfall: Missing UPC, GTIN, EAN, or ISBN</h2>
-    <p>Walmart requires all listings to have a barcode, known on Walmart as <strong>Product Identifiers</strong>. If your only other marketplace is Amazon, they don't allow barcode exports, aside from ASINs. <a href="https://support.listingmirror.com/hc/en-us/articles/360057398092">Learn more</a></p>
-    <p>If you have a non-Amazon marketplace with this data, we'll import that data to your <strong>Product Catalog</strong>. Otherwise, you'll need to find the barcode elsewhere. You can find them on <a href="https://support.listingmirror.com/hc/en-us/articles/4473366849947">Amazon</a> or <a href="https://support.listingmirror.com/hc/en-us/articles/360009636071">Walmart</a>.</p>
-    <p>With the gathered data, you can now input them into your <strong>Product Catalog</strong>.</p>
-<h3>Individual Listings</h3>
+<h2>Inventory Locations</h2>
+    <p>Shopify allows multiple inventory sources on their platform. Since we send your inventory to Shopify, you'll need to assign a Listing Mirror inventory source to location. <a href="https://support.listingmirror.com/hc/en-us/articles/360045085192">Learn more</a></p>
+<h3>Default Location</h3>
     <ol type="1">
-        <li>From the <strong>Manage Listings</strong> page, search for your listing.</li>
-        <li>Click the <strong>Product Catalog</strong>.</li>
-        <li>Input the barcode into the corrisponding field in the <strong>Identifiers</strong> area.</li>
+        <li>From the menubar, click <strong>Integrations</strong>, followed by <strong>Manage Integrations</strong>.</li>
+        <li>Click a <strong>Shopify</strong> integration.</li>
+        <li>From the <strong>Locations</strong> dropdown, select the main location assigned to your Shopify account.</li>
+        <li>Click <strong>Save Changes</strong>.</li>
     </ol>
-<h3>Mulitple Listings</h3>
+        <!-- A GIF goes here.-->
+<h3>Additional Location</h3>
+    <p>If you have multiple locations, you can create two extra inventory sources to accomidate this.</p>
     <ol type="1">
-        <li>From the menubar, click <strong>Listings</strong>, followed by <strong>Bulk Edit Templates</strong>.</li>
-        <li>From the dropdown, select <strong>Product Edit</strong>, followed by <strong>Download Template</strong>.</li>
-        <li>Once downloaded, open the sheet and input appropriate data into any <strong>barcode</strong> cells.</li>
-        <li>On the <strong>Actions</strong>sheet, switch <strong>UPC, GTIN, EAN, and ISBN</strong> from <strong>F</strong> to <strong>T</strong>.</li>
-        <li>Save the sheet, head back to the <strong>Bulk Edit Templates</strong>, and click <strong>Upload Template</strong>.</li>
+        <li>From the menubar, click <strong>Inventory</strong>, followed by <strong>Inventory Sources</strong>.</li>
+        <li>Click <strong>Add New Inventory Source</strong>, and fill out required information.</li>
+        <li>Click <strong>Add Inventory Source</strong>.</li>
     </ol>
+    <p>After, you'll assign the inventory sources to the Shopify locations.</p>
+    <ol type="1">
+        <li>From the menubar, click <strong>Integrations</strong>, followed by <strong>Manage Integrations</strong>.</li>
+        <li>Click a <strong>Shopify</strong> integration, followed by the <strong>Advanced</strong> tab.</li>
+        <li>From the <strong>Location Additional 1</strong> dropdown, select a Shopify location.</li>
+        <li>From the <strong>Inventory Source Additional 1</strong>, select your inventory source.</li>
+    </ol>
+        <!-- A GIF goes here. -->
 <br>
 <h2>Creating Listings</h2>
 <h3>Create Individual Listings</h3>
     <ol type="1">
-        <li>From the <strong>Manage Listings</strong> page, find a product missing from Walmart.</li>
+        <li>From the <strong>Manage Listings</strong> page, find a product missing from Etsy.</li>
         <li>Click the blue <strong>Add to Marketplace</strong> button.</li>
     </ol>
     <p>If there's no issues, and you're syncing, the listing will go live.</p>
 <h3>Create Multiple Listings</h3>
     <ol type="1">
-        <li>From the <strong>Manage Listings</strong> page, find a group of missing products on Walmart.</li>
+        <li>From the <strong>Manage Listings</strong> page, find a group of missing products on Etsy.</li>
         <li>On the left, click the checkbox for each listing you'd like to create.</li>
         <li>Using the dropdown, click <strong>Create</strong>.</li>
-        <li>Click the Walmart checkbox, then hit <strong>Confirm</strong>.</li>
+        <li>Click the Etsy checkbox, then hit <strong>Confirm</strong>.</li>
     </ol>
 <!-- A GIF goes here. You would need serious help if you needed a GIF for individual listings. -->
     <p>Depending on the amount of listings created, it may take up to a minute to display them all.</p>
@@ -67,7 +74,7 @@
     <p><strong>C</strong> is short for <strong>Create</strong>. You can review the full documentation on our knowledge base. <a href="https://support.listingmirror.com/hc/en-us/articles/360009615851">Learn more</a></p>
 <hr>
     <p>Need to view the status of your bulk template upload? Review your <a href="https://reflector.listingmirror.com/report/bulk-history/">Bulk Upload History</a> page.</p>
-    <p>Continued learning: <a href="https://listing-mirror.github.io/training-centre/mirror/amazon-to-etsy">Getting Started: Amazon to Etsy</a></p>
+    <p>Continued learning: <a href="https://listing-mirror.github.io/training-centre/inventory/general">Getting Started: Inventory</a></p>
     <p>Confused? <a href="https://listing-mirror.github.io/training-centre/welcome/support">Contact support!</a></p>
         <script src="" async defer></script>
     </body>
