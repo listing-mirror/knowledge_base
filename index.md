@@ -20,11 +20,11 @@ Also, I didn't feel like writing some CSS for this, so it's just going to be sta
 
 ## Import & Create Listings
 
-[Getting Started: Importing Listings](./import-create/import-listing)
+[Getting Started: Importing Listings](./import-create/import-listings)
 
-[Getting Started: Creating Amazon Listings](./import-create/create-amz-listing)
+[Getting Started: Creating Amazon Listings](./import-create/create-amz-listings)
 
-[Getting Started: Creating Listings](./import-create/create-listing)
+[Getting Started: Creating Listings](./import-create/create-listings)
 
 ## Mirroring Listings
 
