@@ -20,41 +20,41 @@ Also, I didn't feel like writing some CSS for this, so it's just going to be sta
 
 ## Import & Create Listings
 
-[Getting Started: Importing Listings](./import-create/import-listings)
+[Getting Started | Importing Listings](./import-create/import-listings)
 
-[Getting Started: Creating Amazon Listings](./import-create/create-amz-listings)
+[Getting Started | Creating Amazon Listings](./import-create/create-amz-listings)
 
-[Getting Started: Creating Listings](./import-create/create-listings)
+[Getting Started | Creating Listings](./import-create/create-listings)
 
 ## Mirroring Listings
 
-[Getting Started: Category Mapping](./mirror/category-mapping)
+[Getting Started | Category Mapping](./mirror/category-mapping)
 
-[Getting Started: Mirror From Amazon to eBay](./mirror/amazon-to-ebay)
+[Getting Started | Mirror From Amazon to eBay](./mirror/amazon-to-ebay)
 
-[Getting Started: Mirror From Amazon to Walmart](./mirror/amazon-to-walmart)
+[Getting Started | Mirror From Amazon to Walmart](./mirror/amazon-to-walmart)
 
-[Getting Started: Mirror From Amazon to Shopify](./mirror/amazon-to-shopify)
+[Getting Started | Mirror From Amazon to Shopify](./mirror/amazon-to-shopify)
 
-[Getting Started: Mirror From Amazon to Etsy](./mirror/amazon-to-etsy)
+[Getting Started | Mirror From Amazon to Etsy](./mirror/amazon-to-etsy)
 
 ## Manage Inventory
 
-[Getting Started: Inventory](./inventory/general)
+[Getting Started | Inventory](./inventory/general)
 
-[Getting Started: Merchant Fulfilled](./inventory/mf)
+[Getting Started | Merchant Fulfilled](./inventory/mf)
 
-[Getting Started: FBA, WFS, and 3PL](./inventory/amazon-3pl)
+[Getting Started | FBA, WFS, and 3PL](./inventory/amazon-3pl)
 
 ## Fulfill Orders
 
-[Getting Started: Orders](./orders/general)
+[Getting Started | Orders](./orders/general)
 
 
-[Getting Started: Merchant Fulfilled](./orders/mf)
+[Getting Started | Merchant Fulfilled](./orders/mf)
 
-[Getting Started: Multi-Channel Fulfillment](./orders/mcf)
+[Getting Started | Multi-Channel Fulfillment](./orders/mcf)
 
 ## Updating Price
 
-[Getting Started: Price Syncing Options](./price/price-sync)
+[Getting Started | Price Syncing Options](./price/price-sync)
