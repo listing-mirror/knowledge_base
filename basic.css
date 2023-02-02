@@ -1,13 +1,5 @@
-/* Listing Mirror text style branding */
-a {
-    color: #0E38AC  
-}
-a:hover {
-    color: #050F36
-}
-
 /* Button styling for the Phone Support page */
-.button {
+.LM-Button {
 background-color: #0E38AC;
 border: none;
 color: white;
@@ -19,19 +11,39 @@ margin: 4px 2px;
 cursor: pointer;
 border-radius: 5px;
 }
-    .button:hover {
+    .LM-Button:hover {
     background-color: #4D99F4;
     }
-    .button:active {
+    .LM-Button:active {
         background-color: #1A1A1A;
     }
 
-#button2 a {
+#LM-Button2 a {
     text-decoration: none;
 }
 
+/* All links. Listing Mirror branding. */
+.LM-Link a {
+    color: #0E38AC;
+}
+.LM-Link a:hover {
+    color: #050F36;
+}
+
 /* All tables */
-table, th, td {
+.LM-Table table {
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.LM-Table th {
+    width: 20%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.LM-Table td {
     width: 20%;
     border: 1px solid black;
     border-collapse: collapse;
@@ -39,6 +51,6 @@ table, th, td {
 }
 
 /* All ordered lists */
-ol {
+.LM-OList {
     list-style-type: 1;
 }

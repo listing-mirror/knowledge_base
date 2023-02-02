@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="favicon" type="image/x-icon" href="">
-    <link rel="main stylesheet" href="">
+    <link rel="main stylesheet" href="../basic.css">
     <meta charset="UTF-8">
     <meta name="author" content="">
     <meta name="description" content="">
@@ -14,38 +14,32 @@
 <body>
     <h1>Request Help | Contact Support</h1>
 <!-- Add everything below this line to Zendesk. Above is only for this website.-->
+<div class="LM-Link">
     <h3>Learn how to contact Listing Mirror support, and how long it will take to get a response on your tickets</h3>
 <br>
     <h2>Contacting Support</h2>
-    <p>
-        Listing Mirror handles our communication with our clients using our <a href="https://support.listingmirror.com/hc/en-us" target="_blank" rel="noopener">support portal</a>.
-        This allows us to tackle the toughest issues first, making sure no one is left without an answer.
-    </p>
-    <p>
-        <strong>Do you need to review your tickets?</strong>
-        <a href="https://support.listingmirror.com/hc/en-us/requests" target="_blank" rel="noopener">Learn more</a>
-    </p>
-    <p>
-        <strong>Do you need to open a new ticket?</strong>
-        <a href="https://support.listingmirror.com/hc/en-us/requests/new" target="_blank" rel="noopener">Learn more</a>
-    </p>
+        <p>
+            Listing Mirror handles our communication with our clients using our 
+            <a href="https://support.listingmirror.com/hc/en-us" target="_blank" rel="noopener">support portal</a>.
+            This allows us to tackle the toughest issues first, making sure no one is left without an answer.
+        </p>
+    <div id="LM-Button2">
+        <a href="https://support.listingmirror.com/hc/en-us/requests/new">
+            <button class="LM-Button">Submit a Request</button>
+        </a>
+        <a href="https://support.listingmirror.com/hc/en-us/requests/">
+            <button class="LM-Button">See my Requests</button>
+        </a>
+    </div>
 <br>
     <h2>Phone Support</h2>
         <p>
-            We offer phone support to any client on the <strong>PLUS</strong> plan or above. 
-            To request phone support, <a href="https://support.listingmirror.com/hc/en-us/requests/new" target="_blank" rel="noopener">open a ticket</a> with our support staff.
+            Please see our dedicated phone support article.
+            <a href="./phone-support">Learn more</a>
         </p>
-        <p>
-            State what you'd like to discuss, and any SKU or order number you need help with.
-            This allows us to prepare for the meeting, and attempt to understand the issue before meeting.
-            Our support calls are limited to 15 minutes.
-        </p>
-        <p>
-            Regardless of plan, we offer new user training for everyone during their trial. 
-            Current users welcome. <a href="./phone-support" target="_blank" rel="noopener">Learn more</a>
-        </p>
-<br>
+<hr>
     <h2>Hours of Operation</h2>
+    <div class="LM-Table">
         <table>
             <tr>
                 <th>Day</td>
@@ -78,6 +72,7 @@
                 <td>06:00 PM EST</td>
             </tr>
         </table>
+    </div>
         <p>
             We're closed on the weekends, and all major United States holidays.
         </p>
@@ -95,9 +90,9 @@
         </p>
             <ul>
                 <li><strong>ShipStation</strong> integration is disconnected from Listing Mirror.</li>
-                <li>All quantity levels are incorrect.</li>
-                <li>You're unable to update quantity levels.</li>
-                <li>You're unable to ship any orders.</li>
+                <li>All inventory levels are incorrect.</li>
+                <li>You're unable to update inventory levels.</li>
+                <li>You're unable to fulfill or add tracking data to any orders.</li>
                 <li>Pricing issues are disrupting your business in a large percentage of listings.</li>
                 <li>You've been suspended from a marketplace due to an error.</li>
             </ul>
@@ -105,9 +100,9 @@
             <strong>High</strong>
         </p>
             <ul>
-                <li>Ten orders or fewer cannot be shipped, or tracking not updating.</li>
-                <li>Ten listings or fewer have incorrect inventory levels.</li>
-                <li>Ten listings or fewer where updating price is not working.</li>
+                <li>Ten orders or more cannot be shipped, or tracking not updating.</li>
+                <li>Ten listings or more have incorrect inventory levels.</li>
+                <li>Ten listings or more where updating price is not working.</li>
             </ul>
         <p>
             <strong>Normal</strong>
@@ -141,6 +136,7 @@
             This is <strong>Pending</strong> status, and when we send updates.
         </p>
     <h3>LITE, PLUS, & PRO Plan Client Response Time</h3>
+    <div class="LM-Table">
         <table>
                 <tr>
                     <th><p>&nbsp;</p></td>
@@ -207,13 +203,7 @@
                 <td><p style=color:#00cc00>10 hours</p></td>
             </tr>
         </table>
-<style>
-    table, th, td {
-        width: 20%;
-        border: 1px solid black;
-        border-collapse: collapse;
-        text-align: center;
-    }
-</style>
+    </div>
+</div>
 </body>
 </html>
