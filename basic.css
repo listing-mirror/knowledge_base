@@ -25,9 +25,11 @@ border-radius: 5px;
 /* All links. Listing Mirror branding. */
 .LM-Link a {
     color: #0E38AC;
+    text-decoration: none;
 }
 .LM-Link a:hover {
     color: #050F36;
+    text-decoration: none;
 }
 
 /* All tables */
