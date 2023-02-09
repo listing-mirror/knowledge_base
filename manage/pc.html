@@ -16,17 +16,86 @@
 <!-- Add everything below this line to Zendesk. Above is only for this website.-->
 <div class="LM-Link">
 <div class="LM-OList">
-    <h3>Learn how to edit your products across multiple markets at once</h3>
+    <h3>Learn how to edit your product data across multiple markets at once</h3>
         <p>
-            Our <strong>Product Catalog</strong> allows you to manage your listings details and inventory levels all one place.
+            Our <strong>Product Catalog</strong> allows you to manage your listings details all in one place.
             You'll be able to edit details that are similar between markets, such as titles, descriptions, images, price, and more.
+            Having your listings connected to the same <strong>Product Catalog</strong> also allows us to keep your inventory sync across each marketplace.
         </p>
-        <h2>Managing Listing Data</h2>
-        <h2>Managing Images</h2>
-        <h2>Creating Market Listings</h2>
+<br>
+    <h2>Managing Data</h2>
+        <p>
+            The required fields are title, SKU, and price.
+            Anything outside those fields will serve to fill in the gaps that other marketplaces require, and make sure your customers have detailed information.
+            To edit any field, click on the text box, and input the data.
+        </p>
+    <h3>Fields In Sync</h3>
+        <p>
+            Below each field, you'll see a green or yellow box, indicating which markets are in sync with the field.
+            Clicking the box will provide you with one of three options, depending on the marketplace.
+                <ul>
+                    <li>In Sync - This field is in sync with the marketplace listing.</li>
+                    <li>Out of Sync - This field is out of sync with the marketplace listing.</li>
+                    <li>Excluded - This field does not exist on the marketplace.</li>
+                </ul>
+            If something is out of sync, you can select the checkbox next to the market, followed by <strong>Sync Selected</strong> to sync it.
+            This will remove the data on the market listing and replace it with the <strong>Product Catalog</strong> information.
+        </p>
+    <h3>Description & Bullet Points</h3>
+        <p>
+            If a market doesn't support bullet points, and your description is in sync with the <strong>Product Catalog</strong>, we'll display your bullet points in the description.
+            This feature exists for BigCommerce, Etsy, eBay, Shopify, Magento, Overstock, TopHatter, Google Shopping, and Wish.
+        </p>
+    <h3>Identifiers</h3>
+        <p>
+            Some markets require you to have some kind of product identifier.
+            By default, we show ASIN, UPC, and MPN.
+            To add other types, click <strong>Add</strong>, and select the type you'd like to add.
+        </p>
+    <h3>Category</h3>
+        <p>
+            The <strong>Product Catalog</strong> will display categories based on Amazon, even if you don't use Amazon.
+            You can assign these to your products, then we'll use your category mapping to give proper marketplace categories.
+            <a href="../mirror/category-mapping">Learn more</a>
+        </p>
+    <h3>Price</h3>
+        <p>
+            Regardless of which region you're syncing to, the price on the <strong>Product Catalog</strong> will always be in USD.
+            If your price field is in sync with the <strong>Product Catalog</strong>, we'll convert the price from USD to the region of choice using global market data.
+        </p>
+    <h3>Update From Amazon</h3>
+        <p>
+            If you're an Amazon-first seller, you may want to update your listing details based on the Amazon listing data.
+            Regardless if you own the ASIN or not, you can pull in the description, images, bullet points, and title from Amazon and update these fields automatically.
+            From the <strong>Actions</strong> dropdown, click <strong>Update From Amazon</strong>, and select which fields you want to update.
+        </p>
+<br>
+    <h2>Create Market Listings</h2>
+        <p>
+            When you're happy with the data you've input, it's time to create the listings on the market.
+            On the right side, in the <strong>Market Listings</strong> box, click the plus button for each marketplace you'd like to add the product to.
+            If they market requires a category, we'll ask you to select one, and put any addition data the market may need.
+        </p>
+    <h3>Market Listing Status</h3>
+        <ul>
+            <li><strong>Check Mark</strong>: Your listing is live and in sync.</li>
+            <li><strong>Flame</strong>: Your listing is incomplete, or has an error.</li>
+            <li><strong>Warning (merge)</strong>: Your product variations are not grouped on the marketplace, and exist as multiple variations</li>
+                <ul>
+                    <li>Clicking <strong>Merge</strong> will delete your marketplace listings, and create them under the product variation.</li>
+                </ul>
+            <li><strong>Plus</strong>: No market listing exists.</li>
+            <li><strong>Plus (x / y created)</strong>: You've created a certain number out of the total possible variations able to be created.</li>
+        </ul>
 <hr>
-<p>Ready to add variations?</p>
-<p>Confused?</p>
+        <p>
+            Ready to learn about variations?
+            <a href="./pc-v">Getting Started | Product Catalog Variations</a>
+        </p>
+        <p>
+            Confused?
+            <a href="../welcome/support">Contact support!</a>
+        </p>
 </div>
 </div>
 </body>
