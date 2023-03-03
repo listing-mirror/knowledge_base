@@ -56,3 +56,8 @@ border-radius: 5px;
 .LM-OList {
     list-style-type: 1;
 }
+
+/* All Images */
+.LM-Img img {
+    padding: 10px 0 10px 0;
+}
