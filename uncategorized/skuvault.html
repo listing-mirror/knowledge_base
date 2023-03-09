@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="favicon" type="image/x-icon" href="">
+    <link rel="main stylesheet" href="../basic.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=0.38">
+    <title>Listing Mirror | SkuVault Integration</title>
+</head>
+
+<body>
+    <h1>Getting Started | SkuVault Integration</h1>
+<!-- Add everything below this line to Zendesk. Above is only for this website.-->
+<div class="LM-Link">
+<div class="LM-OList">
+<div class="LM-Img">
+<p>
+    <em>Note: Some of our older subscription plans do not include this level of integration. It is possible that you will need to upgrade your plan to have access to inventory integration. Please contact us to enable the function on your account.</em>
+  </p>
+  <h1>How to Integrate</h1>
+  <h2>Step 1</h2>
+  <p>
+    To integrate SkuVault into Listing Mirror, select&nbsp;<strong>Manage Inventory </strong>from
+    the&nbsp;<strong>Integrations&nbsp;</strong>drop-down menu.
+  </p>
+  <h2>Step 2</h2>
+  <p>Next, you will add your SkuVault credentials.</p>
+  <h2>Step 3</h2>
+  <p>Configuring the integration.</p>
+  <p>
+    You'll first need to indicate if you'd like for us to connect all of your SkuVault
+    warehouses to a single Inventory Source, or to create separate Inventory Sources
+    for specific SkuVault warehouses.
+  </p>
+  <p>&nbsp;</p>
+  <p>
+    If you choose to connect all of your SkuVault warehouses to a single Inventory
+    Source, we will create an Inventory Source called "SkuVault". You will see this
+    on your Manage Inventory page.<br>
+    <br>
+    If you choose to connect select SkuVault warehouses to individual inventory sources,
+    we will then prompt you to let us know which warehouses you would like to connect.
+    You may select as many SkuVault warehouses as you would like.
+  </p>
+  <p>
+    After connecting those SkuVault warehouses individually, we will create individual
+    Inventory Sources named per your SkuVault warehouse name. You will see all of
+    these new Inventory Sources on your Manage Inventory page.
+  </p>
+  <p>&nbsp;</p>
+  <h2>Settings for SkuVault integrations</h2>
+  <p>1. We sync with SkuVault every two hours.</p>
+  <p>
+    2. We true up inventory every day of the week at 8am, 2pm, and 10pm UAT. This
+    means we will reach out to SkuVault and use their inventory as a guaranteed accurate
+    number and sync that quantity to Listing Mirror.&nbsp;
+  </p>
+  <p>
+    3. If a SKU is not found in the file that SkuVault gives us, we will zero out
+    that SKU's QTY for the SkuVault <strong>Inventory Source.</strong>
+  </p>
+  <p>&nbsp;</p>
+  <p>
+    Please note, if you use Kitting &amp; Bundling for your listings, you will need
+    to set up your recipes in both Listing Mirror and in SkuVault.&nbsp;
+  </p>
+
+  <hr>
+  <p>
+    <em>Note: Some of our older subscription plans do not include this level of integration. It is possible that you will need to upgrade your plan to have access to inventory integration.</em>&nbsp;
+  </p>
+  <p>
+    If you're not already familiar with it, SkuVault is an inventory management system
+    with which Listing Mirror integrates.&nbsp;
+  </p>
+  <p>
+    There are generally
+    <strong>2 workflows for SkuVault to work with Listing Mirror</strong>:
+  </p>
+  <p>
+    1. You can connect all of your SkuVault warehouses to a single Inventory Source,
+    and all of your SkuVault inventory will be under the
+    <strong>SkuVault </strong>inventory source.
+  </p>
+  <p>
+    2. You can connect select SkuVault warehouses to individual Inventory Sources,
+    and they will appear as separate columns on the Manage Inventory page.
+  </p>
+  <p>
+    On top of those specific configurations, there are also two different ways you
+    can have SkuVault communicate with Listing Mirror.
+  </p>
+  <h2>Not Integrated</h2>
+  <p>
+    If you choose to use SkuVault to manage your inventory, but don't want that inventory
+    to sync with Listing Mirror, you would not want to set up an integration. Instead
+    you would update your inventory within SkuVault, SkuVault would send that inventory
+    information to your marketplaces and Listing Mirror would have no part in managing
+    the quantities of your listings.&nbsp;
+  </p>
+  <p>
+    If this is the case, make sure your quantity update option is unchecked in your
+    integration settings.<img src="/hc/article_attachments/360016593492/Screen_Shot_2018-12-06_at_5.42.06_PM.png" alt="Screen_Shot_2018-12-06_at_5.42.06_PM.png">
+  </p>
+  <p>
+    If that option is enabled, Listing Mirror will send whatever quantity we have,
+    even if that quantity is 0.
+  </p>
+  <p>The other way you can use SkuVault is integrated.</p>
+  <h2>Integrated</h2>
+  <p>
+    If you decide you would like your inventory to sync with Listing Mirror, you
+    would want to have your SkuVault account integrated. What this means is that
+    you will still maintain your inventory in SkuVault, but instead of SkuVault sending
+    the inventory to the marketplace it sends it to Listing Mirror. We will then
+    push that inventory out to the marketplaces. In this case, you will want the
+    update quantity option to remain selected.
+  </p>
+  <p>
+    This way you can see your listings and inventory all in one convenient place.
+    Listing Mirror also frequently updates inventory much quicker than most inventory
+    management systems do, so you run less risk of overselling due to inaccurate
+    inventory and will&nbsp;<strong>true up</strong> to SkuVault three times every
+    single day.
+  </p>
+  <p>
+    Note that if you use kitting and bundling for your listings, you will want to
+    setup Kits in both Listing Mirror and in SkuVault.&nbsp;
+  </p>
+  <p>
+    If a SKU is not found in the file that SkuVault gives us, we will zero out that
+    SKU's QTY for the SkuVault <strong>Inventory Source.</strong>
+  </p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+</div>
+</div>
+</body>
+</html>
