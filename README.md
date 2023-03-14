@@ -18,3 +18,13 @@ This page is intended for Listing Mirror staff only. This is a DEMO, and will no
 [Getting Started | Add & Manage Integrations](./training-center/import-create/add-integration)
 
 [Getting Started | Import Listings](./training-center/import-create/import-listings)
+
+[Getting Started | Creating Amazon Listings](./training-center/import-create/create-amazon-listings)
+
+[Getting Started | Create & Delete Market Listings](./training-center/import-create/create-market-listings)
+
+[Getting Started | Create & Delete Products](./training-center/import-create/create-delete-products)
+
+[Getting Started | Create & Delete Product Variations](./training-center/import-create/create-delete-variations)
+
+## Next Thing
