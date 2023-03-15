@@ -4,7 +4,7 @@ This page is intended for Listing Mirror staff only. This is a DEMO, and will no
 ## Training Centre
 
 ### Welcome
-[What Is Listing Mirror?](./training-center/welcome/what-is-listing-mirror)
+[What Is Listing Mirror?](/training-center/welcome/what-is-listing-mirror)
 
 [Request Help - Contact Support](./training-center/welcome/contact-support)
 
