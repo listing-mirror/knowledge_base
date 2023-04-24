@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="favicon" type="image/x-icon" href="">
+    <link rel="main stylesheet" href="../basic.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=0.38">
+    <title>Listing Mirror | Duplicate Amazon Listings</title>
+</head>
+
+<body>
+    <h1>Duplicate Amazon Listings</h1>
+<!-- Add everything below this line to Zendesk. Above is only for this website.-->
+<div class="LM-Link">
+<div class="LM-OList">
+<div class="LM-Img">
+    <h2>Learn how to view, manage, and strategically use duplicate Amazon listings on Listing Mirror</h2>
+        <p>
+            Duplicate Amazon listings are defined as two or more SKUs assigned to the same ASIN.
+            Amazon allows sellers to sell a merchant fulfilled (MF), and fulfilled by Amazon (FBA), which differ in SKU, but share an ASIN.
+            While this may be the most common situation, it's possible to have any number of SKUs assigned to one ASIN.
+        </p>
+        <p>
+            Listing Mirror is built on the concept that each product is assigned one Listing Mirror SKU, regardless of how many Market SKUs that product may have.
+            This is done to make sure your inventory is tracked properly, and nothing over or undersells. 
+        </p>
+    <div class="LM-Error">
+        <p>
+            Clicking <strong>Delete From Amazon</strong> will <strong>permanently</strong> delete the listing on Amazon, regardless of your integration settings.
+        </p>
+    </div>
+    <h3>Location of your duplicate listings</h3>
+        <ol>
+            <li>From the menu bar, click <strong>Listings</strong>, followed by an Amazon channel.</li>
+            <li>At the top left, click <strong>Amazon Actions</strong>, followed by <strong>Manage Duplicate Listings</strong></li>
+        </ol>
+        <p>
+            You can use the search feature to search by <strong>SKU</strong>, <strong>ASIN</strong>, or <strong>Title</strong>.
+        </p>
+    <h3>Product and SKU shown on the Manage Listings page</h3>
+        <p>
+            When you have a duplicate SKU, we'll only display the first imported SKU on the <strong>Manage Listings</strong> page.
+            If you need to change which SKU is shown, 
+            <a href="../../training-center/import-create/create-delete-market-listings" target="_blank" rel="noopener">delete the Amazon market listing</a>
+            on the <strong>Manage Listings</strong> page, then, wait for it to 
+            <a href="../../training-center/import-create/import-listings" target="_blank" rel="noopener">import</a>.
+        </p>
+    <h3>If you have two or more MF SKUs assigned to one ASIN</h3>
+        <p>
+            If you have two or more MF SKUs assigned to the same ASIN, we'll make the first imported SKU the primary.
+            This can be changed on the <strong>Manage Duplicate Listings</strong> page by clicking <strong>Make FBM Primary</strong>.
+            Your primary SKU will be the product we send quantity to, while the non-primary SKUs will be handled based on your 
+            <a href="https://reflector.listingmirror.com/app/integrations/manage/" target="_blank" rel="noopener">Amazon integration settings</a>. 
+        </p>
+            <img src="./assets/dupe-amazon-example.png">
+    <h4>Duplicate FBM Strategy</h4>
+        <p>
+            In the <strong>Advanced</strong> tab for your 
+            <a href="https://reflector.listingmirror.com/app/integrations/manage/" target="_blank" rel="noopener">Amazon integration settings</a>,
+            you'll find your strategy options.
+        </p>
+        <ol>
+            <li>
+                <strong>Ignore</strong>
+                <p>
+                    We won't change the quantity for the non-primary FBM SKU.
+                    The SKUs won't share quantity, which can lead to overselling.
+                    Only use this option if your intent is to have the quantity be different between the SKUs.
+                    You'll need to manage the non-primary FBM SKU quantity on your Amazon seller account.
+                </p>
+            </li>
+            <li>
+                <strong>Sync Zero to Duplicates</strong>
+                <p>
+                    We will only sync quantity to the primary FBM SKU, not both.
+                    This is to prevent overselling.
+                    Any non-primary FBM SKUs will be set to zero quantity. 
+                </p>
+            </li>
+            <li>
+                <strong>Copy to Duplicates</strong>
+                <p>
+                    We will take the quantity from the primary FBM SKU, and send it to the non-primary FBM SKUs.
+                </p>
+            </li>
+        </ol>
+            <img src="./assets/dupe-amazon-fbm-strategy.png">
+    <h3>If you have two or more FBA SKUs assigned to one ASIN</h3>
+        <p>
+            If you have duplicate FBA SKUs, your quantity will be displayed as the sum of all duplicates.
+            When filling orders, we'll fill them from lowest to highest quantity based on the SKU.
+            If a SKU had 5 quantity, and another has 10, we'll pull from the SKU with 5 until it sold out. 
+        </p>
+</div>
+</div>
+</div>
+</body>
+</html>
