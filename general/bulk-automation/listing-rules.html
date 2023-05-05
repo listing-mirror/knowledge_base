@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="favicon" type="image/x-icon" href="">
+    <link rel="main stylesheet" href="../../basic.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=0.38">
+    <title>Bulk Changes & Automation | Listing Rules</title>
+</head>
+
+<body>
+    <h1>Listing Rules</h1>
+<div class="LM-Link">
+<div class="LM-OList">
+<div class="LM-Img">
+    <h2>Learn how to create and manage your listing rules to automate tasks in Listing Mirror</h2>
+        <p>
+            <strong>Listing Rules</strong> can be used to automate simple tasks regarding your listing data.
+            They're simple "if, then" statements that allow you to modify your data when another piece of data meets a given criteria.
+            Rules can accomplish countless tasks, but here are some common examples.
+        </p>
+    <div class="LM-Info">
+        <p>
+            Listing rules can also help you increase the profits of your business.
+            <a href="./price-change-listing-rules" target="_blank" rel="noopener">Learn more</a>
+        </p>
+    </div>
+        <ul>
+            <li>Change the <strong>Brand</strong> field based on the title of the listing.</li>
+            <li>Change eBay's <strong>Listing Duration</strong> field.</li>
+            <li>Change categories for a listing based on keywords in the title or description.</li>
+            <li>Change category specific fields based on keywords in the title or description.</li>
+            <li>Increase or decrease the price of items using percentages, or a fixed number.</li>
+        </ul>
+        <p>
+            The <a href="https://reflector.listingmirror.com/listing/rule/" target="_blank" rel="noopener">listing rules</a> page can be found under the listing tab on the menu bar.
+        </p>
+    <h3>What do each of the fields mean?</h3>
+        <ul>
+            <li><strong>Title</strong>: A short description of what the rule does.</li>
+            <li><strong>Filter Type</strong>: Tells the rule when to run.</li>
+            <li><strong><em>(Optional)</em> Filter Field Name</strong>: Searches for a field to run based on.</li>
+            <li><strong><em>(Optional)</em> Filter Value</strong>: Searches for the data in the previously provided field.</li>
+                <ul>
+                    <li>If a comma is used, the rule will only run if the data field has all parts.</li>
+                </ul>
+            <li><strong>Rule Action</strong>: Tells the rule what to do when criteria is met.</li>
+            <li><strong>Field Name</strong>: The field you want to change.</li>
+            <li><strong><em>(Optional)</em> Field Value</strong>: The data you want to input.</li>
+        </ul>
+    <h3>Creating a listing rules</h3>
+        <p>
+            Listing rules can be created on an integration basis only.
+            They cannot interact with the <strong>Product Catalog</strong>, or other marketplaces.
+        </p>
+        <ol>
+            <li>From the menu bar, click <strong>Listings</strong>, followed by <strong>Listing Rules</strong>.</li>
+            <li>Under a marketplace, click <strong>Create</strong>.</li>
+            <li>In <strong>Title</strong>, provide a short description of what the rule does.</li>
+            <li>Execute what you want the rule to do in the following fields.</li>
+            <li>Click <strong>Save</strong>.</li>
+        </ol>
+        <p>
+            Once you've created your rule, it will only affect new listings created.
+            Creating a rule will <strong>not</strong> automatically update existing listings.
+            If you need to update existing listings, click <strong>Run</strong> under the created rule.
+        </p>
+        <h4>Example</h4>
+        <p>
+            Below, you'll see an example where a user wants to <strong>always</strong> replace their <strong>description</strong> with their <strong>title</strong>.
+        </p>
+            <img src="./assets/example-listing-rule.png">
+    <h3>Unique use cases, and how to handle them</h3>
+        <p>
+            Listing rules are an advanced feature, and require a deeper understanding before fully utilizing.
+            Below, you'll find common examples of complexities.
+            This listing is always expanding.
+            If you have suggestions,
+            <a href="https://success.listingmirror.com/kb-tickets/new?subject=Listing%20Rule%20suggestion&content=I%20have%20a%20suggestion%20for%20your%20knowledge%20base%20relating%20to%20Listing%20Rules.&hs_ticket_priority=Low" target="_blank" rel="noopener">contact support</a>
+            with your suggestion.
+        </p>
+        <h4>eBay Listing Duration</h4>
+            <p>
+                When creating a listing rule to change the listing duration, the <strong>Field Value</strong> must be set with a specific value.
+            </p>
+            <ul>
+                <li>3 Days should be <strong>Days_3</strong></li>
+                <li>5 Days should be <strong>Days_5</strong></li>
+                <li>7 Days should be <strong>Days_7</strong></li>
+                <li>10 Days should be <strong>Days_10</strong></li>
+                <li>30 Days should be <strong>Days_30</strong></li>
+                <li>Good 'Til Cancelled should be <strong>GTC</strong></li>
+            </ul>
+</div>
+</div>
+</div>
+</body>
+</html>
