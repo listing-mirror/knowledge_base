@@ -17,6 +17,115 @@
 <div class="LM-OList">
 <div class="LM-Img">
     <h2>Learn how to create and manage your listing rules to automate tasks in Listing Mirror</h2>
+        <p>
+            <strong>Listing Rules</strong> can be used to increase or decrease your prices based on criteria you set.
+            These can help increase your profits on other markets by matching your Amazon Multi-Channel Fulfillment (MCF) costs.
+            This feature works along side our <strong>Amazon repricing tool</strong>, so certain settings must be enabled.
+            <a href="https://reflector.listingmirror.com/listing/rule/" target="_blank" rel="noopener">View page</a>
+        </p>
+    <h3>Confirm your integration settings</h3>
+        <p>
+            Previously mentioned, you'll need to ensure your settings are properly configured to work with these rules.
+        </p>
+        <ol>
+            <li>From the menu bar, click <strong>Integrations</strong>, followed by <strong>Manage Integrations</strong>.</li>
+            <li>Click your main Amazon integration.</li>
+            <li>Enable <strong>Update Price</strong> and <strong>Sync Price</strong>.</li>
+            <li>Save changes</li>
+            <li>Click an integration you'd like to use the rule on.</li>
+            <li>On the <strong>General</strong> tab, enable <strong>Price Sync Target</strong>.</li>
+                <li>Depending on the integration, this may be on the <strong>Advanced</strong> tab.</li>
+        </ol>
+        <p>
+            These settings may change your current workflow.
+            Moving forward, you'll want to update your prices on Amazon Seller Central.
+            From there, we'll see you changed the price, then update your marketplaces with <strong>Price Sync Target</strong> enabled accordingly.
+        </p>
+        <p>
+            If you don't want to change your prices automatically, you can forego the above settings, and run the rule manually.
+            After creating a rule, a <strong>Run</strong> button will appear along side the edit and delete settings.
+        </p>
+    <div class="LM-Info">
+        <p>
+            Price rules will run automatically when we notice an Amazon price change with the above settings enabled <strong>OR</strong>, when a new listing is created.
+        </p>
+    </div>
+    <h3>Creating a price rule to increase or decrease prices</h3>
+        <p>
+            We provide two different methods of changing prices.
+            You can either change them using percentages, or a fixed price.
+        </p>
+        <h4>Percentage</h4>
+        <ol>
+            <li>On the <strong>Listing Rules</strong> page, click <strong>Create</strong> under the desired marketplace.</li>
+            <li>Give the rule a short title and when you'd like the rule to run.</li>
+            <li>Under <strong>Rule Action</strong> select <strong>Increase Price Percent</strong></li>
+            <li>Under <strong>Field Name</strong>, select <strong>Price</strong>.</li>
+            <li>Under <strong>Filter Value</strong>, input your percentage.</li>
+        </ol>
+            <p>
+                If you want to increase your price by 10%, you'd input <strong>1.10</strong> as your value.
+                If you want to decrease the price by 10%, you'd input <strong>-1.10</strong> OR <strong>0.90</strong>.
+            </p>
+            <img src="./assets/listing-rules-increase-price-percent.png">
+        <h4>Fixed</h4>
+        <ol>
+            <li>On the <strong>Listing Rules</strong> page, click <strong>Create</strong> under the desired marketplace.</li>
+            <li>Give the rule a short title and when you'd like the rule to run.</li>
+            <li>Under <strong>Rule Action</strong> select <strong>Increase Price Fixed</strong></li>
+            <li>Under <strong>Field Name</strong>, select <strong>Price</strong>.</li>
+            <li>Under <strong>Filter Value</strong>, input your dollar amount.</li>
+        </ol>
+        <p>
+            If you want to increase your price by $10, you'd input <strong>10</strong> as your value.
+            If you want to decrease the price by $10, you'd input <strong>-10</strong>.
+        </p>
+        <img src="">
+    <div class="LM-Error">
+        <p>
+            Including a percent symbol (%) or dollar sign ($) is not needed, and will cause the rule to not run.
+        </p>
+    </div>
+    <h3>Match your non-Amazon listing price to match your Amazon profits</h3>
+        <p>
+            The <strong>Match FBA Profit</strong> rule will allow you to increase or decrease your prices based on your MCF fees, and listing fee of the marketplace.
+            This allows you to profit on your items, even with the increase MCF costs.
+        </p>
+    <div class="LM-Table">
+        <table>
+            <tr>
+                <th>Amazon</th>
+                <th>eBay</th>
+            </tr>
+            <tr>
+                <td>Price: $50</td>
+                <td>Price: $47</td>
+            </tr>
+            <tr>
+                <td>Listing Fee: -$10</td>
+                <td>Listing Fee: -$5</td>
+            </tr>
+            <tr>
+                <td>FBA Fee: -$5</td>
+                <td>MCF Fee: -$7</td>
+            </tr>
+            <tr>
+                <td>Profit: $35</td>
+                <td>Profit: $35</td>
+            </tr>
+        </table>
+    </div>
+        <p>
+            From this example, you can see the eBay price is lower due to the fees associated with the Amazon item being more costly.
+            We'll always match the non-Amazon marketplace price based on the profits of your Amazon sales.
+        </p>
+        <ol>
+            <li>On the <strong>Listing Rules</strong> page, click <strong>Create</strong> under the desired marketplace.</li>
+            <li>Give the rule a short title and when you'd like the rule to run.</li>
+            <li>Under <strong>Rule Action</strong> select <strong>Match FBA Profit</strong></li>
+            <li>Under <strong>Field Name</strong>, select <strong>Price</strong>.</li>
+        </ol>
+    
 </div>
 </div>
 </div>
