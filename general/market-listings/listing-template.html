@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="favicon" type="image/x-icon" href="">
+    <link rel="main stylesheet" href="../../basic.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=0.38">
+    <title>Listing Mirror | Add HTML to your descriptions using listing templates</title>
+</head>
+
+<body>
+    <h1>Add HTML to your descriptions using listing templates</h1>
+<div class="LM-Link">
+<div class="LM-OList">
+<div class="LM-Img">
+    <h2>Learn how to use listing templates to add HTML descriptions to your listings, making them look more professional</h2>
+        <p>
+            We use
+            <a href="https://jinja.palletsprojects.com/" target="_blank" rel="noopener">Jinja2</a> for our listing templates.
+            All syntax is allowed in Jinja2, such as 
+            <a href="https://jinja.palletsprojects.com/en/3.1.x/extensions/#loop-controls" target="_blank" rel="noopener">loops</a> or
+            <a href="https://jinja.palletsprojects.com/en/3.1.x/templates/#filters" target="_blank" rel="noopener">filters</a>.
+        </p>
+        <p>
+            Listing templates allow you to add flair to your descriptions.
+            We give you the option to either make your own, or use one we've built for you.
+        </p>
+    <div class="LM-Error">
+        <p>
+            Listing templates can change your workflow.
+            Descriptions need to be updated on the product, rather than the listing.
+            A link will be provided for you for quick access.
+        </p>
+    </div>
+    <div class="LM-Info">
+        <p>
+            Listing templates are currently only available for eBay.
+        </p>
+    </div>
+        <p>
+            To access your templates, click <strong>Listings</strong> from the menu bar, followed by an eBay marketplace.
+            Click the <strong>Actions</strong> dropdown, and select <strong>Edit Listing Templates</strong>.
+        </p>
+    <h3>Use a Listing Mirror (simple) provided listing template</h3>
+        <p>
+            We provide five templates in five different colors.
+            Each template can easily be changed by a simple click.
+            Once you've made your choice, you'll need to apply the template to your listings.
+            See section "<strong>Add your template to your listings</strong>".
+        </p>
+            <img src="./assets/listng-template-simple-template.png">
+        <p>
+            Using the <strong>Template Fields</strong> tab, you can edit certain things, such as your business name, "About Us", your store link, and more.
+        </p>
+    <h3>Use an advanced template of your own making</h3>
+    <div class="LM-Error">
+        <p>
+            Advanced listing templates require knowledge of HTML, and the ability to learn Jinja2 elements.
+        </p>
+    </div>
+        <p>
+            The follow variables are allowed when creating your own template:
+        </p>
+        <ul>
+            <li><strong>description</strong>: A string representing the text on the product.</li>
+            <li><strong>title</strong>: A string representing the text on the product.</li>
+            <li><strong>bullets</strong>: An array of strings representing 0 to 7 bullet points found on the product.</li>
+            <li><strong>images</strong>: An array of dicts representing the url to the images for the parent listing. 
+                <ol>
+                    <li>full: URL to the full size image in jpg format. This may be up to 10 MB in size, so it should not be directly used in a template, but could be linked in a zoom view.</li>
+                    <li>big_thumb: URL to a 350x350 pixel image in jpg format.</li>
+                    <li>little_thumb - URL to a 150x150 pixel image in jpg format.</li>
+                </ol>
+            </li>
+            <li><strong>parent_listing</strong>: A dict of fields representing the parent listing.</li>
+                <ul>
+                    <li>title</li>
+                    <li>category_id</li>
+                    <li>secondary_category_id</li>
+                    <li>store_category_id</li>
+                    <li>second_store_category_id</li>
+                    <li>condition</li>
+                    <li>condition_note</li>
+                    <li>shipping_override_profile</li>
+                    <li>international_override_shipping_profile</li>
+                    <li>shipping_profile_id</li>
+                    <li>payment_profile_id</li>
+                    <li>return_profile_id</li>
+                    <li>minimum_advertised_price_exposure</li>
+                    <li>best_offer_override</li>
+                    <li>best_offer_auto_accept_price</li>
+                    <li>minimum_best_offer_price</li>
+                    <li>variation_name_1</li>
+                    <li>variation_name_2</li>
+                    <li>variation_name_3</li>
+                    <li>variation_name_4</li>
+                    <li>variation_name_5</li>
+                    <li>template_data_1</li>
+                    <li>template_data_2</li>
+                </ul>
+            <li><strong>child_listings</strong>: An array of dict of fields representing the variations. If the listing has no variations, this is still seen as an array of length 1.</li>
+                <ul>
+                    <li>sku</li>
+                    <li>price</li>
+                    <li>compare_at_price</li>
+                    <li>variation_value_1</li>
+                    <li>variation_value_2</li>
+                    <li>variation_value_3</li>
+                    <li>variation_value_4</li>
+                    <li>variation_value_5</li>
+                    <li>minimum_advertised_price</li>
+                    <li>upc</li>
+                    <li>mpn</li>
+                    <li>shipping_weight</li>
+                    <li>shipping_weight_unit_of_measure</li>
+                    <li>item_height</li>
+                    <li>item_length</li>
+                    <li>item_width</li>
+                    <li>item_length_unit_of_measure</li>
+                </ul>              
+            <li><strong>category_specific</strong>: A dict of category specific fields. You can either look up individual items or use them all.</li>
+            <li><strong>template</strong>: A dict of fields representing the template fields.</li>
+                <ul>
+                    <li>about</li>
+                    <li>ebay_store_link</li>
+                    <li>ebay_contact_link</li>
+                    <li>shipping_policy</li>
+                    <li>payment_policy</li>
+                    <li>return_policy</li>
+                    <li>business_name</li>
+                </ul>  
+        </ul>
+        <h4>Example</h4>
+        <pre>
+            <code>
+                Master Listing Title:
+                {{ title }}
+
+                Product Features:
+                {% for bullet in bullets %}
+                {{ bullet }}
+                {% endfor %}
+
+                Product Images:
+                {% for image in images %}
+                <img src="{{ image.big_thumb }}">
+                {% endfor %}
+
+                Master Listing Description:
+                {{ description }}
+
+                Category Specifics:
+                {% for k,v in category_specific.items() %}
+                <b>{{ k }}</b>: {{ v }}
+                {% endfor %}
+
+                Item Condition:
+                <p>{{ parent_listing.condition }}<br>
+                {% if parent_listing.condition_note %}
+                {{ parent_listing.condition_note }}
+                {% endif %}
+                </p>
+
+                Template Fields:
+                {{ template.about }}
+            </code>
+        </pre>
+    <h3>Add your template to your listings</h3>
+        <h4>Individual Listings</h4>
+        <ol>
+            <li>From the <strong>Manage Listings</strong> page, search for a product.</li>
+            <li>Click <strong>Edit</strong> for the listing.</li>
+            <li>Locate <strong>Listing Template</strong>, and select the template from the dropdown.</li>
+            <li>Save changes.</li>
+        </ol>
+        <h4>Multiple Listings</h4>
+        <ol>
+            <li>From the menu bar, click <strong>Listings</strong> followed by a supported marketplace.</li>
+            <li>Using the <strong>Actions</strong> dropdown, and click <strong>Profile IDs</strong>.</li>
+            <li>Note down the desired ID.</li>
+            <li>From the menu bar, click <strong>Listings</strong>, followed by <strong>Bulk Edit Templates</strong>.</li>
+            <li>Using the dropdown, select <strong>Market Listing Core Edit</strong>, followed by the supported marketplace.</li>
+            <li>In the sheet, locate the <strong>Listing Template</strong> field, and input the noted ID.</li>
+            <li>Save changes, and upload the sheet.</li>
+        </ol>
+    <h3>Removing a template from your listings</h3>
+        <ol>
+            <li>From the <strong>Manage Listings</strong> page, search for a product.</li>
+            <li>Click <strong>Edit</strong> for the listing.</li>
+            <li>Locate <strong>Listing Template</strong>, and remove the template from the dropdown.</li>
+            <li>Edit the description field, or click <strong>Use Product Catalog Description</strong>.</li>
+            <li>Save changes.</li>
+        </ol>
+</div>
+</div>
+</div>
+</body>
+</html>
