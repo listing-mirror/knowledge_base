@@ -135,38 +135,36 @@
         </ul>
         <h4>Example</h4>
         <pre>
-            <code>
-                Master Listing Title:
-                {{ title }}
+            Master Listing Title:
+            {{ title }}
 
-                Product Features:
-                {% for bullet in bullets %}
-                {{ bullet }}
-                {% endfor %}
+            Product Features:
+            {% for bullet in bullets %}
+            {{ bullet }}
+            {% endfor %}
 
-                Product Images:
-                {% for image in images %}
-                <img src="{{ image.big_thumb }}">
-                {% endfor %}
+            Product Images:
+            {% for image in images %}
+            &lt;img src="{{ image.big_thumb }}"&gt;
+            {% endfor %}
 
-                Master Listing Description:
-                {{ description }}
+            Master Listing Description:
+            {{ description }}
 
-                Category Specifics:
-                {% for k,v in category_specific.items() %}
-                <b>{{ k }}</b>: {{ v }}
-                {% endfor %}
+            Category Specifics:
+            {% for k,v in category_specific.items() %}
+            &lt;b&gt;{{ k }}&lt;/b&gt;: {{ v }}
+            {% endfor %}
 
-                Item Condition:
-                <p>{{ parent_listing.condition }}<br>
-                {% if parent_listing.condition_note %}
-                {{ parent_listing.condition_note }}
-                {% endif %}
-                </p>
+            Item Condition:
+            &lt;p&gt;{{ parent_listing.condition }}&lt;br&gt;
+            {% if parent_listing.condition_note %}
+            {{ parent_listing.condition_note }}
+            {% endif %}
+            &lt;/p&gt;
 
-                Template Fields:
-                {{ template.about }}
-            </code>
+            Template Fields:
+            {{ template.about }}
         </pre>
     <h3>Add your template to your listings</h3>
         <h4>Individual Listings</h4>
