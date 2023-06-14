@@ -26,13 +26,13 @@
         </p>
         <p>
             Listing templates allow you to add flair to your descriptions.
-            We give you the option to either make your own, or use one we've built for you.
+            You have the option to create your own, or use one of our pre-built templates.
         </p>
     <div class="LM-Error">
         <p>
             Listing templates can change your workflow.
             Descriptions need to be updated on the product, rather than the listing.
-            A link will be provided for you for quick access.
+            A link will be provided for quick access.
         </p>
     </div>
     <div class="LM-Info">
@@ -41,7 +41,7 @@
         </p>
     </div>
         <p>
-            To access your templates, click <strong>Listings</strong> from the menu bar, followed by an eBay marketplace.
+            To access your templates, click <strong>Listings</strong> from the menu bar, followed by a supported marketplace.
             Click the <strong>Actions</strong> dropdown, and select <strong>Edit Listing Templates</strong>.
         </p>
     <h3>Use a Listing Mirror (simple) provided listing template</h3>
@@ -55,7 +55,7 @@
         <p>
             Using the <strong>Template Fields</strong> tab, you can edit certain things, such as your business name, "About Us", your store link, and more.
         </p>
-    <h3>Use an advanced template of your own making</h3>
+    <h3>Use an advanced template of your making</h3>
     <div class="LM-Error">
         <p>
             Advanced listing templates require knowledge of HTML, and the ability to learn Jinja2 elements.
@@ -78,21 +78,8 @@
             <li><strong>parent_listing</strong>: A dict of fields representing the parent listing.</li>
                 <ul>
                     <li>title</li>
-                    <li>category_id</li>
-                    <li>secondary_category_id</li>
-                    <li>store_category_id</li>
-                    <li>second_store_category_id</li>
                     <li>condition</li>
                     <li>condition_note</li>
-                    <li>shipping_override_profile</li>
-                    <li>international_override_shipping_profile</li>
-                    <li>shipping_profile_id</li>
-                    <li>payment_profile_id</li>
-                    <li>return_profile_id</li>
-                    <li>minimum_advertised_price_exposure</li>
-                    <li>best_offer_override</li>
-                    <li>best_offer_auto_accept_price</li>
-                    <li>minimum_best_offer_price</li>
                     <li>variation_name_1</li>
                     <li>variation_name_2</li>
                     <li>variation_name_3</li>
@@ -116,12 +103,12 @@
                     <li>mpn</li>
                     <li>shipping_weight</li>
                     <li>shipping_weight_unit_of_measure</li>
-                    <li>item_height</li>
-                    <li>item_length</li>
-                    <li>item_width</li>
-                    <li>item_length_unit_of_measure</li>
+                    <li>item_shipping_height</li>
+                    <li>item_shipping_length</li>
+                    <li>item_shipping_width</li>
+                    <li>item_shipping_unit_of_measure</li>
                 </ul>              
-            <li><strong>category_specific</strong>: A dict of category specific fields. You can either look up individual items or use them all.</li>
+            <li><strong>category_specific</strong>: A dict of category-specific fields. You can either look up individual items or use them all.</li>
             <li><strong>template</strong>: A dict of fields representing the template fields.</li>
                 <ul>
                     <li>about</li>
@@ -133,7 +120,14 @@
                     <li>business_name</li>
                 </ul>  
         </ul>
-        <h4>Example</h4>
+    <div class="LM-Info">
+        <p>
+            Template fields will only be displayed if you fill them out using the <strong>Template Fields</strong> tab.
+        </p>
+    </div>
+        <h4>Basic Example - 
+        <a href="https://gist.github.com/rharris-listingmirror/44f5efee0f25a83c8f6afa8da6270e85" target="_blank" rel="noopener">View code</a>
+        </h4>
         <pre>
             Master Listing Title:
             {{ title }}
